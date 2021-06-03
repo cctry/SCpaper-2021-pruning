@@ -1,0 +1,24 @@
+
+# define prune ratios for your network
+# 66.66 / 75.99 (filter sparsity / weight sparsity)
+block_sizes:
+    transformer_encoder.layers.0.self_attn.in_proj_weight:
+        [8,3]
+    transformer_encoder.layers.0.self_attn.out_proj.weight:
+        [8,3]
+    transformer_encoder.layers.0.linear1.weight:
+        [8,3]
+    transformer_encoder.layers.0.linear2.weight:
+        [8,3]
+    transformer_encoder.layers.1.self_attn.in_proj_weight:
+        [8,3]
+    transformer_encoder.layers.1.self_attn.out_proj.weight:
+        [8,3]
+    transformer_encoder.layers.1.linear1.weight:
+        [8,3]
+    transformer_encoder.layers.1.linear2.weight:
+        [8,3]
+    encoder.weight:
+        [8,3]
+    decoder.weight:
+        [8,3]

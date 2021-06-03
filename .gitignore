@@ -3,3 +3,5 @@ logs/*
 models/*
 models_ADMM/*
 models_ADMM_pruned/*
+*/.data
+.DS_Store
