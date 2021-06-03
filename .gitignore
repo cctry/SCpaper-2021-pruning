@@ -1,0 +1,5 @@
+.data/*
+logs/*
+models/*
+models_ADMM/*
+models_ADMM_pruned/*

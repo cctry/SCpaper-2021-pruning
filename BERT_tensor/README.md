@@ -1,5 +1,6 @@
-# BERT_tensor
-## Run PyTorch version
+## GLUE Benchmark
+
+# Run PyTorch version
 
 Based on the script [`run_glue.py`](https://github.com/huggingface/transformers/blob/master/examples/text-classification/run_glue.py).
 
@@ -62,7 +63,7 @@ CoLA, SST-2. The following section provides details on how to run half-precision
 said, there shouldn’t be any issues in running half-precision training with the remaining GLUE tasks as well,
 since the data processor for each task inherits from the base class DataProcessor.
 
-## Example
+# Example
 
 Following is an example of how we run the experiment of pruning on MRPC
 
